@@ -1,7 +1,7 @@
 import React from "react";
 import idle from "../assets/idle.gif";
 
-import { Container } from "./battle.styles";
+import { Container, ActionBox, Sans } from "./battle.styles";
 
 export const BattleUI = () => {
   return (
@@ -13,12 +13,11 @@ export const BattleUI = () => {
           alt="name-lv-cap"
         />
       </a>
-      <div style={{ display: "grid" }}>
-        <img
+      <div style={{ width: '80%'}}>
+        <Sans
           src={idle}
-          style={{ maxHeight: 200, maxWidth: 200, margin: 24 }}
-        ></img>
-        <input style={{ height: 200, width: 400 }}></input>
+        ></Sans>
+        <ActionBox />
       </div>
     </Container>
   );
