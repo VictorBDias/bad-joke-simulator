@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import sansBase from './assets/sans-base.png'
 import idle from './assets/idle.gif'
 import './App.css'
 
