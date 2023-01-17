@@ -1,9 +1,12 @@
 import React from "react";
+
 import idle from "../assets/idle.gif";
 
 import { Container, ActionBox, Sans } from "./battle.styles";
+import { PlayerActions } from "./PlayerActions/PlayerActions";
 
 export const BattleUI = () => {
+
   return (
     <Container>
       <a href="https://github.com/VictorBDias">
@@ -18,6 +21,7 @@ export const BattleUI = () => {
           src={idle}
         ></Sans>
         <ActionBox />
+        <PlayerActions></PlayerActions>
       </div>
     </Container>
   );
