@@ -20,7 +20,7 @@ export const PlayerActions: React.FC = () => {
           style={{marginRight: 16}}
         />
         <img src="https://fontmeme.com/permalink/230117/3770d6d70b426b521c9546aca7c35a2e.png"
-        style={{ maxHeight: 48}} alt="undertale-logo-font" />
+        style={{ maxHeight: 20}} alt="undertale-logo-font" />
   </div>;
 }
 

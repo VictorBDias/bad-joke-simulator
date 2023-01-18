@@ -16,7 +16,7 @@ export const BattleUI = () => {
           alt="name-lv-cap"
         />
       </a>
-      <div style={{ width: '80%'}}>
+      <div style={{ width: '60%'}}>
         <Sans
           src={idle}
         ></Sans>
